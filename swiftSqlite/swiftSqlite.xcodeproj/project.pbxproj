@@ -1,0 +1,408 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		539FB8291FD6A9F900A5C9C6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 539FB8281FD6A9F900A5C9C6 /* AppDelegate.swift */; };
+		539FB82B1FD6A9F900A5C9C6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 539FB82A1FD6A9F900A5C9C6 /* ViewController.swift */; };
+		539FB82E1FD6A9F900A5C9C6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 539FB82C1FD6A9F900A5C9C6 /* Main.storyboard */; };
+		539FB8301FD6A9F900A5C9C6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 539FB82F1FD6A9F900A5C9C6 /* Assets.xcassets */; };
+		539FB8331FD6A9F900A5C9C6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 539FB8311FD6A9F900A5C9C6 /* LaunchScreen.storyboard */; };
+		C7B7685333AD01997E098B2E /* Pods_swiftSqlite.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C3BE771935E8A3DF0C972EE /* Pods_swiftSqlite.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		539FB8251FD6A9F900A5C9C6 /* swiftSqlite.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = swiftSqlite.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		539FB8281FD6A9F900A5C9C6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		539FB82A1FD6A9F900A5C9C6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		539FB82D1FD6A9F900A5C9C6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		539FB82F1FD6A9F900A5C9C6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		539FB8321FD6A9F900A5C9C6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		539FB8341FD6A9F900A5C9C6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		760FD98BE4FF20142F19302D /* Pods-swiftSqlite.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-swiftSqlite.debug.xcconfig"; path = "Pods/Target Support Files/Pods-swiftSqlite/Pods-swiftSqlite.debug.xcconfig"; sourceTree = "<group>"; };
+		8C3BE771935E8A3DF0C972EE /* Pods_swiftSqlite.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_swiftSqlite.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D4528CE66FEF23DB76045E3F /* Pods-swiftSqlite.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-swiftSqlite.release.xcconfig"; path = "Pods/Target Support Files/Pods-swiftSqlite/Pods-swiftSqlite.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		539FB8221FD6A9F900A5C9C6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C7B7685333AD01997E098B2E /* Pods_swiftSqlite.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		539FB81C1FD6A9F900A5C9C6 = {
+			isa = PBXGroup;
+			children = (
+				539FB8271FD6A9F900A5C9C6 /* swiftSqlite */,
+				539FB8261FD6A9F900A5C9C6 /* Products */,
+				94E5E707B2CE0513AB2C0865 /* Pods */,
+				C3679E0A69FD014A76F51A3B /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		539FB8261FD6A9F900A5C9C6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				539FB8251FD6A9F900A5C9C6 /* swiftSqlite.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		539FB8271FD6A9F900A5C9C6 /* swiftSqlite */ = {
+			isa = PBXGroup;
+			children = (
+				539FB8281FD6A9F900A5C9C6 /* AppDelegate.swift */,
+				539FB82A1FD6A9F900A5C9C6 /* ViewController.swift */,
+				539FB82C1FD6A9F900A5C9C6 /* Main.storyboard */,
+				539FB82F1FD6A9F900A5C9C6 /* Assets.xcassets */,
+				539FB8311FD6A9F900A5C9C6 /* LaunchScreen.storyboard */,
+				539FB8341FD6A9F900A5C9C6 /* Info.plist */,
+			);
+			path = swiftSqlite;
+			sourceTree = "<group>";
+		};
+		94E5E707B2CE0513AB2C0865 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				760FD98BE4FF20142F19302D /* Pods-swiftSqlite.debug.xcconfig */,
+				D4528CE66FEF23DB76045E3F /* Pods-swiftSqlite.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		C3679E0A69FD014A76F51A3B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8C3BE771935E8A3DF0C972EE /* Pods_swiftSqlite.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		539FB8241FD6A9F900A5C9C6 /* swiftSqlite */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 539FB8371FD6A9F900A5C9C6 /* Build configuration list for PBXNativeTarget "swiftSqlite" */;
+			buildPhases = (
+				8F85C41B5C084D54D888FB82 /* [CP] Check Pods Manifest.lock */,
+				539FB8211FD6A9F900A5C9C6 /* Sources */,
+				539FB8221FD6A9F900A5C9C6 /* Frameworks */,
+				539FB8231FD6A9F900A5C9C6 /* Resources */,
+				95E2E6A65EB98F43495EFF5D /* [CP] Embed Pods Frameworks */,
+				E4CC26C9DF461F0C1355902D /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = swiftSqlite;
+			productName = swiftSqlite;
+			productReference = 539FB8251FD6A9F900A5C9C6 /* swiftSqlite.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		539FB81D1FD6A9F900A5C9C6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0910;
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = "Prabu Govindasamy";
+				TargetAttributes = {
+					539FB8241FD6A9F900A5C9C6 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 539FB8201FD6A9F900A5C9C6 /* Build configuration list for PBXProject "swiftSqlite" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 539FB81C1FD6A9F900A5C9C6;
+			productRefGroup = 539FB8261FD6A9F900A5C9C6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				539FB8241FD6A9F900A5C9C6 /* swiftSqlite */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		539FB8231FD6A9F900A5C9C6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				539FB8331FD6A9F900A5C9C6 /* LaunchScreen.storyboard in Resources */,
+				539FB8301FD6A9F900A5C9C6 /* Assets.xcassets in Resources */,
+				539FB82E1FD6A9F900A5C9C6 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		8F85C41B5C084D54D888FB82 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-swiftSqlite-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		95E2E6A65EB98F43495EFF5D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-swiftSqlite/Pods-swiftSqlite-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/SQLite.swift/SQLite.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SQLite.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-swiftSqlite/Pods-swiftSqlite-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E4CC26C9DF461F0C1355902D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-swiftSqlite/Pods-swiftSqlite-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		539FB8211FD6A9F900A5C9C6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				539FB82B1FD6A9F900A5C9C6 /* ViewController.swift in Sources */,
+				539FB8291FD6A9F900A5C9C6 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		539FB82C1FD6A9F900A5C9C6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				539FB82D1FD6A9F900A5C9C6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		539FB8311FD6A9F900A5C9C6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				539FB8321FD6A9F900A5C9C6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		539FB8351FD6A9F900A5C9C6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		539FB8361FD6A9F900A5C9C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		539FB8381FD6A9F900A5C9C6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 760FD98BE4FF20142F19302D /* Pods-swiftSqlite.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = swiftSqlite/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.photon.swiftSqlite;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		539FB8391FD6A9F900A5C9C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D4528CE66FEF23DB76045E3F /* Pods-swiftSqlite.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = swiftSqlite/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.photon.swiftSqlite;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		539FB8201FD6A9F900A5C9C6 /* Build configuration list for PBXProject "swiftSqlite" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				539FB8351FD6A9F900A5C9C6 /* Debug */,
+				539FB8361FD6A9F900A5C9C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		539FB8371FD6A9F900A5C9C6 /* Build configuration list for PBXNativeTarget "swiftSqlite" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				539FB8381FD6A9F900A5C9C6 /* Debug */,
+				539FB8391FD6A9F900A5C9C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 539FB81D1FD6A9F900A5C9C6 /* Project object */;
+}
